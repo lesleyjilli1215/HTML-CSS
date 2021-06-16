@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+/* p{
+    width: 500px;
+    height: 500px;
+    background-color: #777;
+    padding: 100px;
+    border: 10px solid red;
+    margin: 100px;
+} */
+
+.outside{
+     width: 1200px;
+     height: 800px;
+     background-color: #ccc;
+     display: flex;
+     flex-direction: row;
+     justify-content: flex-end;
+     align-items: flex-end;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}

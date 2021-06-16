@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto' , sans-serif;
+    list-style: none;
+}
+
+/* first section */
+.landing-page{
+    background: url(/asset\ 7.png);
+}
+.wrapper{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+nav .wrapper{
+    padding: 30px 20px;
+    justify-content: space-between;
+}
+nav .navigation-list{
+    width: 500px;
+} 
+nav .navigation-list ul{
+    display: flex;
+    align-items: center;
+}
+nav .navigation-list ul li {
+    padding: 0px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    position: relative;
+}
+nav .navigation-list li a span {
+    position: absolute;
+    color: #fff;
+    top: -130%;
+    right: -50%;
+    width: 50px;
+    height: 18px;
+    font-size: 14px;
+    text-align: center;
+    background-color: #4fd6ff;
+}
+nav .navigation-list li a span:before{
+    content: "";
+    display: block;
+    position: absolute;
+    left: 12px;
+    bottom: -5px;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+    border-top: 8px solid #4fd6ff;
+}
+nav .navigation-list a {
+    text-decoration: none;
+    color: black;
+    position: relative;
+}
+nav .logo{
+    width: 300px;
+    position: relative;
+}
+nav .logo h1{
+    font-size: 0;
+}
+nav .logo img{
+    display: block;
+    width: 150px;
+    height: 40px;
+    margin-left: 30px;
+}
+nav .icon-list{
+    width: 400px;
+    display: flex;
+    justify-content: flex-end;
+}
+nav .icon-list-item{
+   padding: 10px; 
+}
+nav .icon-list-item a{
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+}
+nav .icon-list-item img{
+    width: 25px;
+}
+nav .icon-list-item span.icon-list-item-number{
+    font-size: 12px;
+}
+.banner .wrapper{
+    width: 100%;
+}
+.banner .item-content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 35px 100px 150px;
+}
+.banner .item-pic{
+    width: 50%;
+}
+.item-pic img{
+    width: 100%;
+}
+.banner .item-content h2 {
+    font-size: 58px;
+    font-weight: 100;
+    font-family: 'Poppins', sans-serif;
+}
+.banner .item-content p {
+    line-height: 20px;
+    margin: 10px 0 20px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.banner .item-content .btn {
+    text-decoration: none;
+    display: inline-block;
+    width: 180px;
+    height: 50px;
+    border-radius: 2px;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    transition: all .2s;
+    letter-spacing: 2px;
+    font-size: 12px;
+}
