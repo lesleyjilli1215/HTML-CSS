@@ -128,19 +128,19 @@ line-height: 60px;
 background-color: #07b53b;
 }
 
-/* -----des----- */
-.des {
+/* -----mainTitleArea----- */
+.mainTitleArea {
 height: 40vh;
 padding: 40px;
 }
 
-.des h2 {
+.mainTitleArea h2 {
 font-size: 70px;
 text-align: center;
 font-weight: 800;
 }
 
-.des p {
+.mainTitleArea p {
 padding-top: 30px;
 font-size: 20px;
 text-align: center;
