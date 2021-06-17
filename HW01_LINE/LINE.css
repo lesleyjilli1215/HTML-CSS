@@ -112,7 +112,7 @@ margin-top: 16px;
 width: 250px;
 }
 
-.os a {
+.osList a {
 display: inline-block;
 font-size: 22px;
 width: 60px;
@@ -124,7 +124,7 @@ text-align: center;
 line-height: 60px;
 }
 
-.os a:hover {
+.osList a:hover {
 background-color: #07b53b;
 }
 
